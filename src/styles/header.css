@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    background: black;
+  }
+  
+  .header .logo h1 {
+    margin-left: 29vw;
+    display: flex;
+    color: #59032E;
+    font-weight: bold;
+    font-size: 6vw;
+  }
+
+  .logo p {
+    font-size: 1.6vw; /* Адаптивний розмір шрифту */
+    margin-left: 60vw; /* Відступ зліва */
+    color: black; /* Чорний текст */
+    font-weight: 700;
+    text-shadow: 
+    0 0 10px #59032E, 
+    0 0 20px #59032E; /* Підсвічування рожевим */
+  }
+  
+  
+  .menu {
+    
+    list-style: none;
+    display: flex;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+  }
+  
+  .menu li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1vw;
+  }
+  

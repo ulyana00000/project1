@@ -1,0 +1,14 @@
+{
+  "header": {
+    "logo": "NECROMAGIC",
+    "subtitle": "THE DARK ARTS LABORATORY",
+    "menu": ["ABOUT US", "EXPERIMENTS", "SPELLS", "STUDENT REVIEWS", "LEGENDS", "CONTACTS"]
+  },
+  "main": {
+    "title": "Welcome to NECROMAGIC",
+    "description": "        A place where the secrets of dark magic become reality. We explore the ancient mysteries of sorcery, unveil the power of spells, and experiment with mystical rituals. In our laboratory, the most inquisitive minds come to learn, ready to touch the unknown.",
+    "heroes": [
+      { "src": "/images/heroes.png", "alt": "Hero 3" }
+    ]
+  }
+}

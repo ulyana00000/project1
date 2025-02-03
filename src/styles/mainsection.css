@@ -1,0 +1,73 @@
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-size: 400;
+    flex-wrap: wrap;
+  }
+  
+  .heroes {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .hero-image {
+    width: 850px;
+    height: auto;
+    
+  }
+  
+ 
+  
+  .main-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+    margin-left: 15vw;
+    max-width: 450px; /* Текст не буде ширше 400px */
+    transform: translateY(5vw);
+    
+  }
+  
+  .main-description {
+    font-size: 0.8rem;
+    
+    line-height: 1.6;
+    
+    margin-left: 13vw;
+    max-width: 450px; /* Текст не буде ширше 400px */
+    transform: translateY(5vw);
+    
+  }
+  
+  .text-container {
+    position: relative;
+    
+   
+  }
+  
+  .text {
+    flex: 1;
+    font-size: 400;
+    margin-right: 1vw; /* Додаємо відступ справа */
+  }
+  
+  .background-shape {
+    position: absolute;
+    top: 0;
+    right: 1vw; /* Додаємо відступ справа */
+    width: 76%;
+    z-index: 0;
+    transform: translateY(-7vw);
+  }
+  
+  .main-title, .main-description {
+    position: relative;
+  }
+  

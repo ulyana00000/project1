@@ -1,0 +1,79 @@
+/* Стилі для контейнера слайдера */
+.slider-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+    overflow: hidden;
+    
+  }
+  
+  /* Слайд */
+  .slide-content {
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    
+    position: relative;
+    width: 100%;
+    height: 500px; /* Висота слайду */
+    color: white;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  
+  /* Накладене зображення */
+  .slide-image {
+    max-width: 600px;
+    height: auto;
+    z-index: 2; /* Зображення над фоном */
+    
+    object-fit: cover;
+    
+  }
+  
+  /* Текстовий контент */
+  .text-content {
+    position: relative;
+    z-index: 2; /* Текст над фоном */
+    max-width: 700px;
+  }
+  
+  .slide-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fcfcfc;
+  }
+  
+  .slide-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+  }
+  
+  .slide-content::before {
+    content: "";
+    position: absolute;
+    
+    width: 100%; /* Масштаб фону ширше контейнера */
+    height: 50%; /* Масштаб фону вище контейнера */
+    background-size: contain; /* Зображення вписується з пропорціями */
+    background-repeat: no-repeat; /* Запобігаємо повторенню */
+    background-position: center; /* Центруємо фон */
+    z-index: 1; /* Фон позаду контенту */
+    opacity: 0.8; /* Прозорість фону */
+    filter: brightness(0.6); /* Темніше для виділення тексту */
+    transition: all 0.3s ease-in-out; /* Плавний перехід при зміні розміру */
+  }
+  
+  /* Пагінація */
+  .swiper-pagination-bullet {
+    background: #272626;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #d3d3d2;
+  }
+  
