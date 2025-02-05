@@ -11,7 +11,7 @@
     margin-left: 29vw;
     display: flex;
     color: #59032E;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 6vw;
   }
 
@@ -43,3 +43,39 @@
     font-size: 1vw;
   }
   
+  @media (max-width: 768px) {
+    .header .logo h1 {
+      margin-left: 2vw; /* Прибираємо лівий відступ */
+      font-size: 10vw; /* Збільшуємо шрифт */
+    }
+    .logo p {
+      margin-left: 0; /* Прибираємо лівий відступ */
+      font-size: 3.8vw; /* Збільшуємо шрифт */
+      text-shadow: 
+        0 0 10px #59032E, 
+        0 0 20px #59032E; /* Підсвічування рожевим */
+        margin-bottom: 3vw;
+    }
+    .header {
+      flex-direction: column; /* Переключення на стовпчик */
+      align-items: center; /* Вирівнювання елементів по центру */
+      text-align: center; /* Вирівнювання тексту по центру */
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap; /* Дозволяє елементам переноситись */
+      justify-content: center; /* Вирівнювання по центру */
+      gap: 3vw; /* Між елементами */
+    }
+  
+    .menu li {
+      flex-basis: calc(33.33% - 3vw); /* Кожен елемент буде займати 1/3 ширини, з урахуванням відступу */
+      font-size: 2vw; /* Збільшуємо шрифт */
+      text-align: center; /* Вирівнювання тексту всередині елементу */
+    }
+  
+  
+    
+    
+  
+  }

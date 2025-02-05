@@ -1,0 +1,95 @@
+.experiments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #000;
+  }
+  
+  .experiments-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px; /* Збільшено відстань між експериментами */
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+  
+.experiment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px; /* Зменшено внутрішні відступи */
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto; /* Автоматична висота */
+}
+
+  
+  .experiment:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #96004B;
+  }
+  
+  .experiment-content {
+    flex: 1;
+    color: white;
+  }
+  
+  .experiment-title {
+    font-size: 1.6vw;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow:  0 0 20px #ff0080; /* Рожеве світіння */
+}
+
+  
+  .experiment-description {
+    font-size: 1.1vw;
+    line-height: 1.5;
+    font-weight: 200;
+    color: #ddd;
+  }
+  
+  .experiment-image-container {
+    flex: 0 0 auto;
+    margin-left: 20px;
+  }
+  
+  .experiment-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .experiment-image:hover {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 768px) {
+    .experiments-container {
+      grid-template-columns: 1fr;
+      padding: 50px;
+    }
+    .experiment-title {
+        font-size: 3vw;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+        text-shadow:  0 0 20px #ff0080; /* Рожеве світіння */
+    }
+    
+      
+      .experiment-description {
+        font-size: 2vw;
+        line-height: 1.5;
+        font-weight: 200;
+        color: #ddd;
+      }
+  }
+  
+  

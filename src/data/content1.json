@@ -5,10 +5,41 @@
     "menu": ["ABOUT US", "EXPERIMENTS", "SPELLS", "STUDENT REVIEWS", "LEGENDS", "CONTACTS"]
   },
   "main": {
-    "title": "Welcome to NECROMAGIC",
-    "description": "        A place where the secrets of dark magic become reality. We explore the ancient mysteries of sorcery, unveil the power of spells, and experiment with mystical rituals. In our laboratory, the most inquisitive minds come to learn, ready to touch the unknown.",
+    "description": "Welcome to NECROMAGIC - a place where the secrets of dark magic become reality. We explore the ancient mysteries of sorcery, unveil the power of spells, and experiment with mystical rituals. In our laboratory, the most inquisitive minds come to learn, ready to touch the unknown.",
     "heroes": [
       { "src": "/images/heroes.png", "alt": "Hero 3" }
     ]
-  }
+  },
+  "experiments": [
+    {
+      "title": "NECROMANTIA",
+      "description": "The study of connections with the afterlife.",
+      "image": "/images/magic-orb.png"
+    },
+    {
+      "title": "SOUL ALCHEMY",
+      "description": "The creation of elixirs and magical substances.",
+      "image": "/images/magic-orb.png"
+    },
+    {
+      "title": "DARK ARTIFACTS",
+      "description": "The study of cursed objects and the crafting of mystical tools.",
+      "image": "/images/magic-orb.png"
+    },
+    {
+      "title": "SHADOW MAGIC",
+      "description": "The mastery of shadows and dark energy.",
+      "image": "/images/magic-orb.png"
+    },
+    {
+      "title": "BLOOD RUNES",
+      "description": "The study of ancient sigils drawn with enchanted blood to unlock hidden powers and forbidden knowledge.",
+      "image": "/images/magic-orb.png"
+    },
+    {
+      "title": "PHANTOM CONJURING",
+      "description": "Summoning and controlling spectral entities to serve as messengers, spies, or guardians in the realm of dark magic.",
+      "image": "/images/magic-orb.png"
+    }
+  ]
 }
